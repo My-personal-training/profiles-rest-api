@@ -1,2 +1,2 @@
-# profiles-rest-api
+# Profiles rest API
 Django API rest advanced course
