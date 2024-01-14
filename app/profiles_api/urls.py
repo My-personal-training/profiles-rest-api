@@ -5,6 +5,7 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 # basename is optional and means that we can use the name to retrieve the url
 router.register('hello-viewset', views.HelloViewSet, basename='hello-viewset')
+router.register('profile', views.UserProfileViewSet)
 
 urlpatterns = [
     path('hello-view/', views.HelloApiView.as_view()),
